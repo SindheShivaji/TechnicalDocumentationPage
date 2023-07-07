@@ -19,3 +19,7 @@ body {
     nav li {
       float: left;
     }
+    nav li a {
+      display: block;
+      color:brown;
+    }
