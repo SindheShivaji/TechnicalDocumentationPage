@@ -5,7 +5,7 @@
   <link href="./styles.css" rel="stylesheet">
 </head>
 <body>
-  <header>
+  <header class="main">
     <h1>Python Technical Documentation</h1>
   </header>
   
@@ -14,24 +14,38 @@
       <h2>Table of Contents</h2>
     </header>
     <ul>
-      <li><a class="nav-link" href="#section-introduction">Introduction</a></li>
-      <li><a class="nav-link" href="#section-installation">Installation</a></li>
-      <li><a class="nav-link" href="#section-usage">Usage</a></li>
-      <li><a class="nav-link" href="#section-examples">Examples</a></li>
-      <li><a class="nav-link" href="#section-examples">Importance</a></li>
+      <li><a class="nav-link" href="#introduction">Introduction</a></li>
+      <li><a class="nav-link" href="#installation">Installation</a></li>
+      <li><a class="nav-link" href="#usage">Usage</a></li>
+      <li><a class="nav-link" href="#examples">Examples</a></li>
+      <li><a class="nav-link" href="#importance">Importance</a></li>
     </ul>
   </nav>
-  
+  <div class="code-legend">
+  <ul>
+   
   <main id="main-doc">
-    <section class="main-section" id="section-introduction">
+   <section class="main-section" id="introduction">
       <header>
         <h2>Introduction</h2>
       </header>
       <p>Python is a dynamic, interpreted (bytecode-compiled) language. There are no type declarations of variables, parameters, functions, or methods in source code. This makes the code short and flexible, and you lose the compile-time type checking of the source code. Python tracks the types of all values at runtime and flags code that does not make sense as it runs. </p>
 <p>An excellent way to see how Python code works is to run the Python interpreter and type code right into it. If you ever have a question like, "What happens if I add an int to a list?" Just typing it into the Python interpreter is a fast and likely the best way to see what happens. </p>
+<code>
+        <p># Python introduction example code</p>
+        <p>def python_intro():</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;# Code for explaining Python's introduction</p>
+      </code>
+      <ul>
+    <li>Python variables</li>
+    <li>Control flow statements</li>
+    <li>Functions and methods</li>
+    <li>Modules and packages</li>
+    <li>Exception handling</li>
+  </ul>
     </section>
     
-    <section class="main-section" id="section-installation">
+    <section class="main-section" id="installation">
       <header>
         <h2>Installation</h2>
       </header>
@@ -44,9 +58,22 @@
 <p>Optionally, you may want to install additional packages or libraries to enhance Python's capabilities. Python provides a package manager called pip, which makes it easy to install packages from the Python Package Index (PyPI). Using the command "pip install package_name", you can install various packages that offer functionalities like data analysis, web development frameworks, or scientific computing. </p>
 
 <p>By following these steps, you will have Python installed on your system, allowing you to start using the language for your projects. Python's versatility, ease of installation, and vast ecosystem of packages make it a popular choice among developers for a wide range of applications.</p>
+  <ul>
+    <li>Windows installation</li>
+    <li>macOS installation</li>
+    <li>Linux installation</li>
+    <li>Verifying the installation</li>
+    <li>Installing additional packages</li>
+  </ul>
+<code>
+        <p># Python installation example code</p>
+        <p>def install_python():</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;# Code for installing Python</p>
+      </code>
+    
     </section>
     
-    <section class="main-section" id="section-usage">
+    <section class="main-section" id="usage">
       <header>
         <h2>Usage</h2>
       </header>
@@ -67,10 +94,21 @@
   <p>  Learn Python Concepts and Best Practices: Python offers many powerful features and concepts. Continuously improve your Python skills by learning about object-oriented programming, data structures, error handling, file handling, module creation, and other advanced topics. Follow best practices for code organization, readability, and maintainability. </p>
 
    <p> Collaborate and Share: Python's popularity means there's a thriving community of Python developers. Join online communities, forums, and social platforms to learn from others, ask questions, and share your knowledge and projects. Collaborate on open-source projects or contribute to existing Python projects.</p>
-      
+   <ul>
+    <li>Running Python scripts</li>
+    <li>Working with files</li>
+    <li>Using libraries and modules</li>
+    <li>Debugging techniques</li>
+    <li>Python best practices</li>
+  </ul>
+     <code>
+        <p># Python usage example code</p>
+        <p>def run_python_code():</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;# Code for running Python code</p>
+      </code> 
     </section>
     
-    <section class="main-section" id="section-examples">
+     <section class="main-section" id="examples">
       <header>
         <h2>Examples</h2>
       </header>
@@ -85,8 +123,20 @@
  <p> When you run this code, it will display "Hello, World!" in the console or terminal. </p>
 
 <p> This is a basic example to demonstrate the syntax and structure of a Python program. Python is a versatile programming language that can be used for a wide range of applications, from simple scripts to complex web applications, data analysis, machine learning, and more.</p>
+<ul>
+    <li>Calculating the factorial of a number</li>
+    <li>Implementing a stack data structure</li>
+    <li>Creating a simple web server</li>
+    <li>Building a basic GUI application</li>
+    <li>Performing data analysis with pandas</li>
+  </ul>
+<code>
+        <p># Python example code</p>
+        <p>def example_function():</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;# Code for an example function</p>
+      </code>
     </section>
-    <section class="main-section" id="section-importance">
+    <section class="main-section" id="importance">
       <header>
         <h2>Importance</h2>
       </header>
@@ -96,12 +146,25 @@
    <p> Easy to Learn and Read: Python has a clean and straightforward syntax that is easy to understand and learn, making it an excellent choice for beginners. The code is highly readable, resembling plain English, which reduces the learning curve and facilitates collaboration among developers. </p>
 
    <p> Versatility: Python is a multipurpose language that can be used for a wide range of applications. It has extensive libraries and frameworks that support tasks such as web development, data analysis, scientific computing, machine learning, artificial intelligence, automation, and more. Python's versatility makes it a go-to language for various domains and industries.</p>
-<p> Large and Active Community: Python has a vibrant and active community of developers who contribute to its growth and development. The community provides extensive documentation, tutorials, forums, and open-source libraries, making it easier to find solutions, seek guidance, and collaborate on projects. Python's popularity also ensures a vast talent pool and job opportunities. </p>
-      </p>
+
+   <p> Large and Active Community: Python has a vibrant and active community of developers who contribute to its growth and development. The community provides extensive documentation, tutorials, forums, and open-source libraries, making it easier to find solutions, seek guidance, and collaborate on projects. Python's popularity also ensures a vast talent pool and job opportunities. </p>
+   <ul>
+    <li>Python in web development</li>
+    <li>Data analysis and visualization with Python</li>
+    <li>Machine learning and artificial intelligence
+    </li>
+    <li>Automation and scripting</li>
+    <li>Python for scientific computing</li>
+  </ul>
+      <code>
+        <p># Python importance example code</p>
+        <p>def explain_importance():</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;# Code for explaining the importance of Python</p>
+      </code>
   </main>
-  
   <footer>
     <p>&copy; 2023 Your Company. All rights reserved.</p>
   </footer>
 </body>
 </html>
+
