@@ -8,4 +8,6 @@ body {
     color: #fff;
     padding: 20px;
   }
-  
+  #navbar {
+    background-color: #f5f5f5;
+  }
