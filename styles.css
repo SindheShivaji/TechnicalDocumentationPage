@@ -24,4 +24,6 @@ body {
   }
   h2::before {
     content: "➤";
+    margin-right: 10px;
+
   }
