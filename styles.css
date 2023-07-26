@@ -26,5 +26,11 @@ body {
     content: "➤";
     margin-right: 10px;
     font-size: 1.2em;
-
   }
+
+  @media (max-width: 600px) {
+      header.main {
+        text-align: center;
+      }
+    }
+
