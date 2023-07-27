@@ -32,5 +32,8 @@ body {
       header.main {
         text-align: center;
       }
+      #navbar ul {
+        display: flex;
+      }
     }
 
